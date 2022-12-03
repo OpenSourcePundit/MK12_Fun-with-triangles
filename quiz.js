@@ -14,6 +14,6 @@ function calculateScores(){
         }
         index=index+1;
      }
-     console.log(score);
+     output.innerText="Your Score is "+score;
 }
 submitBtn.addEventListener("click",calculateScores);
