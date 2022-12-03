@@ -11,4 +11,4 @@ function sumOfSquares(a, b) {
     return a ** 2 + b ** 2;
 }
 
-calculateBtn.addEventListener("click", calculate);
+calculateBtn.addEventListener("click", calculate); 
