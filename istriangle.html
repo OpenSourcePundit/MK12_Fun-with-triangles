@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7e00d5f81a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
     <title>IsTriangleQuiz</title>
 </head>
 <body>
-    <h1>Is Triangle ??</h1>
-    <hr>
+    <nav class="navigation">
+        <div class="nav-brand">Is triangle??</div>
+        <ul class="nav-pills">
+            <li class="item-list-inline">
+                <a class="link "href="/index.html">Quiz</a>
+            </li>
+            <li class="item-list-inline">
+                <a class="link " href="/areaoftriangle.html">Area of &#10177</a>
+            </li>
+            <li class="item-list-inline">
+                <a class="link" href="/hypotenuse.html">Check hypotenuse</a>
+            </li>
+            <li class="item-list-inline">
+                <a class="link link-active" href="/istriangle.html">Check triangle</a>
+            </li>
+        </ul>
+    </nav>
+<div style="max-width: fit-content;margin: auto;margin-top: 2rem;">
     <label for="angle1">Angle1</label>
     <input class="angle-input" type="number">
     <label for="angle2">Angle2</label>
@@ -16,7 +34,20 @@
     <label for="angle3">Angle3</label>
     <input class="angle-input" type="number">
     <button id="is-tri-btn">Is Triangle??</button>
-    <div id="output"></div>
+    <div class="output" id="output"></div>
+</div>
     <script src="istriangle.js"></script>
+    
+    <footer style="text-align:center;">    
+        <p>©|2022| opensourcepundit| <a href="https://opensourcepundit.netlify.app/index.html"><i class="fa-solid fa-diagram-project"></i></a></p>
+        <div style="padding:.5rem;">
+            <a style="padding:.5rem;"href="https://twitter.com/home"><i class="fa-brands fa-twitter icon-large"></i></a>
+            <a style="padding:.5rem;"href="https://discord.com/channels/@me"><i class="fa-brands fa-discord icon-large"></i></a>
+            <a style="padding:.5rem;"href="https://github.com/OpenSourcePundit"><i class="fa-brands fa-github icon-large"></i></a>
+            <a style="padding:.5rem;"href="https://www.instagram.com/shashank_00098/"><i class="fa-brands fa-instagram icon-large"></i></a>
+            <a style="padding:.5rem;"href="https://www.linkedin.com/in/shashank-kumar-2a4b2b87/"><i class="fa-brands fa-linkedin icon-large"></i></a>
+            <a style="padding:.5rem;"href="https://t.me/OpenSourcePundit"><i class="fa-brands fa-telegram "></i></a>
+        </div>
+    </footer>
 </body>
 </html>
